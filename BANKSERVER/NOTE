@@ -1,0 +1,66 @@
+                                                             SERVER CREATION
+
+        Basic Commands
+          
+           1.Create package.json - npm init
+           2.Create Nodemodules - 
+               Install Express - npm i express
+
+
+        Basic Steps
+
+           1. create a folder -(BankServer)
+           2. create a package.json file(npm init)
+           3. create a Nodemodule file( npm express)
+           4. create Index.js file
+           5. import express insde index .json
+           6. create app using express
+           7.set up port number
+           8.ressolving http request
+           9. install nodemon - npm i -g nodemon
+           10. http response code
+               1xx -information
+               2xx- succesfull
+               3xx -redirection
+               4xx -client error
+               5xx -server error
+
+            11. JWT Token - authentication 
+               To check login or not ?
+
+              login ------token generate------>client----- req to deposit to token ---->server token check ?
+
+              Install JWT Token - jsonwebtoken
+
+                npm i jsonwebtoken
+
+                 to generete a new JWT Token - sign()
+
+
+            12. Middleware - to verify the token 
+
+               - it  comes in tgr middlee of the request and response 
+               - it also provide access to many function 
+
+                    1. Application level middleware
+                      for entire application
+
+                    2.Router - level - middleware 
+                      - to verify token
+                         to vlidate the token - verify()
+
+            13.Database integration -
+                  1)install mongoose - npm i mongoose (for connecting nodejs mongo1db)
+                  2)DB connect via mongoose
+                  3)create a model using mongoose
+
+            14.Asynchronous function resolving
+                  1)Resolving state -the()
+                  3)Rejection state -catch()
+
+            15.CORS -Cross origin resourse sharing
+                   install cors -npm i cors
+                   
+
+        
+
